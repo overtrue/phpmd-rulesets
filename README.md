@@ -29,6 +29,7 @@ PHP_MD 规则
     phpmd ./Foo.php text YOU_PATH/phpmd_ruleset.xml
     ```
 
-    > phpmd语法：`phpmd` `目标文件或目录` `输出格式` `规则路径`
+    > phpmd语法：`phpmd` `目标文件或目录` `报告输出格式` `规则路径`
+    > 报告输出格式有:`xml`,`text`,`html`
 
 关于PHPMD，请参考官方网站：http://phpmd.org/
